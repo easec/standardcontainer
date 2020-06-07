@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: "easecakskluster"
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: "easecakskluster"
+    spec:
+      containers:
+        - name: "easecakskluster"
+          image: "easecstandardcontainer.azurecr.io/easecakskluster"
+          ports:
+          - containerPort: 80
