@@ -30,7 +30,7 @@
 </head>
 <body>
 <div class="container">
-  <img src="easec.png" alt=".easec" style="width:70%;">
+  <img src="https://stordevsumj.blob.core.windows.net/easec/easec.png" alt=".easec" style="width:70%;">
     <div class="centered">
      Exempelcontainer för kurser från .easec<br>
      <br>
